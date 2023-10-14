@@ -26,4 +26,20 @@ public class main_window extends AppCompatActivity {
         Intent intent = new Intent(this, Zadanie3.class);
         startActivity(intent);
     }
+    public void Zadanie4(View v){
+        Intent intent = new Intent(this, zadanie4.class);
+        startActivity(intent);
+    }
+    public void Zadanie5(View v){
+        Intent intent = new Intent(this, Zadanie5.class);
+        startActivity(intent);
+    }
+    public void Zadanie6(View v){
+        Intent intent = new Intent(this, Zadanie6.class);
+        startActivity(intent);
+    }
+    public void Zadanie7(View v){
+        Intent intent = new Intent(this, Zadanie7.class);
+        startActivity(intent);
+    }
 }
