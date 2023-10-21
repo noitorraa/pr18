@@ -2,6 +2,8 @@ package com.example.pr18konuk22106;
 
 
 import java.util.ArrayList;
+
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -44,12 +46,14 @@ public class BoxAdapter extends BaseAdapter {
     }
 
     // пункт списка
+    @SuppressLint("SetTextI18n")
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // используем созданные, но не используемые view
-        View view = convertView;
+        View view;
+        view = convertView;
         if (view == null) {
-            view = lInflater.inflate(R.layout.item, parent, false);
+            view = lInflater.inflate(R.layout.item8, parent, false);
         }
 
         Product p = getProduct(position);

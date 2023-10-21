@@ -1,6 +1,7 @@
 package com.example.pr18konuk22106;
 
 
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -10,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DB7 {
 
-    private static final String DB_NAME = "mydb";
+    private static final String DB_NAME = "mydb2";
     private static final int DB_VERSION = 1;
 
     // имя таблицы компаний, поля и запрос создания

@@ -1,4 +1,5 @@
 package com.example.pr18konuk22106;
+
 import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;

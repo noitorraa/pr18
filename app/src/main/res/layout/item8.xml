@@ -24,14 +24,14 @@
             android:text=""
             android:textSize="20sp">
         </TextView>
+
         <TextView
             android:id="@+id/tvPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginRight="10dp"
-            android:text="">
-        </TextView>
+            android:text="" />
     </LinearLayout>
     <ImageView
         android:id="@+id/ivImage"

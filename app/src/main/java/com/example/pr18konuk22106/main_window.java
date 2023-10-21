@@ -42,4 +42,8 @@ public class main_window extends AppCompatActivity {
         Intent intent = new Intent(this, Zadanie7.class);
         startActivity(intent);
     }
+    public void Zadanie8(View v){
+        Intent intent = new Intent(this, Zadanie8.class);
+        startActivity(intent);
+    }
 }

@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DB6 {
 
-    private static final String DB_NAME = "mydb";
+    private static final String DB_NAME = "mydb1";
     private static final int DB_VERSION = 1;
     private static final String DB_TABLE = "mytab";
 
